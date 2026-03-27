@@ -1,0 +1,1118 @@
+<https://w3id.org/daont> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/daont> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/daont/0.0.1> .
+<https://w3id.org/daont> <http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0003-1948-807X> .
+<https://w3id.org/daont> <http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0003-3139-3049> .
+<https://w3id.org/daont> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0003-1427-3723> .
+<https://w3id.org/daont> <http://purl.org/dc/terms/description> "The Digital Assets Ontology (DAOnt) addresses the digital assets domain, that is, any hardware, software, data, or service that exists in or interacts with a digital ecosystem and provides functional or informational value." .
+<https://w3id.org/daont> <http://purl.org/dc/terms/issued> "2025-10-27" .
+<https://w3id.org/daont> <http://purl.org/dc/terms/modified> "2026-03-27" .
+<https://w3id.org/daont> <http://purl.org/dc/terms/publisher> <https://ror.org/046bfkz44> .
+<https://w3id.org/daont> <http://purl.org/dc/terms/title> "Digital Assets Ontology (DAOnt)" .
+<https://w3id.org/daont> <http://purl.org/ontology/bibo/status> "Draft Ontology"@en .
+<https://w3id.org/daont> <http://purl.org/vocab/vann/preferredNamespacePrefix> "dao" .
+<https://w3id.org/daont> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/daont#" .
+<https://w3id.org/daont> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Assets Ontology (DAOnt)" .
+<https://w3id.org/daont> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://w3id.org/daont> <https://schema.org/citation> "Carriero, V.A., Grassi, M., Carenini, A. (2026). Digital Assets Ontology (DAOnt)." .
+<https://w3id.org/daont> <https://schema.org/funding> <https://doi.org/10.3030/101140087> .
+<https://w3id.org/daont> <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#label
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#versionIRI
+<http://www.w3.org/2002/07/owl#versionIRI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#versionInfo
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/citation
+<https://schema.org/citation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/funding
+<https://schema.org/funding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/mod#createdWith
+<https://w3id.org/mod#createdWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://data.europa.eu/it6/classification
+<http://data.europa.eu/it6/classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/it6/classification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Modality> .
+<http://data.europa.eu/it6/classification> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.europa.eu/it6/classification> <http://www.w3.org/2000/01/rdf-schema#label> "classification" .
+# 
+# http://data.europa.eu/it6/hasInputModality
+<http://data.europa.eu/it6/hasInputModality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/it6/hasInputModality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/mls#Model> .
+<http://data.europa.eu/it6/hasInputModality> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/it6/Modality> .
+<http://data.europa.eu/it6/hasInputModality> <http://www.w3.org/2000/01/rdf-schema#label> "has input modality" .
+# 
+# http://data.europa.eu/it6/hasOutputModality
+<http://data.europa.eu/it6/hasOutputModality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/it6/hasOutputModality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/mls#Model> .
+<http://data.europa.eu/it6/hasOutputModality> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/it6/Modality> .
+<http://data.europa.eu/it6/hasOutputModality> <http://www.w3.org/2000/01/rdf-schema#label> "has output modality" .
+# 
+# http://purl.org/dc/terms/accessRights
+<http://purl.org/dc/terms/accessRights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/accessRights> <http://www.w3.org/2000/01/rdf-schema#label> "access rights" .
+# 
+# http://purl.org/dc/terms/accrualPeriodicity
+<http://purl.org/dc/terms/accrualPeriodicity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/accrualPeriodicity> <http://www.w3.org/2000/01/rdf-schema#label> "accrual periodicity" .
+# 
+# http://purl.org/dc/terms/conformsTo
+<http://purl.org/dc/terms/conformsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/conformsTo> <http://www.w3.org/2000/01/rdf-schema#label> "conforms to" .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/dc/terms/format
+<http://purl.org/dc/terms/format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/format> <http://www.w3.org/2000/01/rdf-schema#label> "format" .
+# 
+# http://purl.org/dc/terms/language
+<http://purl.org/dc/terms/language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/language> <http://www.w3.org/2000/01/rdf-schema#label> "language" .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/dc/terms/requires
+<http://purl.org/dc/terms/requires> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/requires> <http://www.w3.org/2000/01/rdf-schema#label> "requires" .
+# 
+# http://purl.org/vocab/frbr/core#realization
+<http://purl.org/vocab/frbr/core#realization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocab/frbr/core#realization> <http://www.w3.org/2000/01/rdf-schema#label> "realization" .
+# 
+# http://w3id.org/mlso/trainedOn
+<http://w3id.org/mlso/trainedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/mlso/trainedOn> <http://www.w3.org/2000/01/rdf-schema#label> "trained on" .
+# 
+# http://www.w3.org/ns/dcat#distribution
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#label> "distribution" .
+# 
+# http://www.w3.org/ns/locn#address
+<http://www.w3.org/ns/locn#address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/locn#address> <http://www.w3.org/2000/01/rdf-schema#label> "address" .
+# 
+# http://www.w3.org/ns/locn#location
+<http://www.w3.org/ns/locn#location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/locn#location> <http://www.w3.org/2000/01/rdf-schema#label> "location" .
+# 
+# http://www.w3.org/ns/mls#hasInput
+<http://www.w3.org/ns/mls#hasInput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/mls#hasInput> <http://www.w3.org/2000/01/rdf-schema#label> "has input" .
+# 
+# http://www.w3.org/ns/mls#hasOutput
+<http://www.w3.org/ns/mls#hasOutput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/mls#hasOutput> <http://www.w3.org/2000/01/rdf-schema#label> "has output" .
+# 
+# http://www.w3.org/ns/mls#specifiedBy
+<http://www.w3.org/ns/mls#specifiedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/mls#specifiedBy> <http://www.w3.org/2000/01/rdf-schema#label> "specified by" .
+# 
+# http://www.w3.org/ns/prov#wasDerivedFrom
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#label> "was derived from" .
+# 
+# https://w3id.org/daont#appliesToHardwareType
+<https://w3id.org/daont#appliesToHardwareType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#appliesToHardwareType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#Requirement> .
+<https://w3id.org/daont#appliesToHardwareType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#HardwareType> .
+<https://w3id.org/daont#appliesToHardwareType> <http://www.w3.org/2000/01/rdf-schema#label> "applies to hardware type" .
+# 
+# https://w3id.org/daont#appliesToProperty
+<https://w3id.org/daont#appliesToProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#appliesToProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#Requirement> .
+<https://w3id.org/daont#appliesToProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/ssn/Property> .
+<https://w3id.org/daont#appliesToProperty> <http://www.w3.org/2000/01/rdf-schema#label> "applies to property" .
+# 
+# https://w3id.org/daont#appliesToSoftwareType
+<https://w3id.org/daont#appliesToSoftwareType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#appliesToSoftwareType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#Requirement> .
+<https://w3id.org/daont#appliesToSoftwareType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#SoftwareType> .
+<https://w3id.org/daont#appliesToSoftwareType> <http://www.w3.org/2000/01/rdf-schema#label> "applies to software type" .
+# 
+# https://w3id.org/daont#belongsToCPUFamily
+<https://w3id.org/daont#belongsToCPUFamily> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#belongsToCPUFamily> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#CPU> .
+<https://w3id.org/daont#belongsToCPUFamily> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#CPUFamily> .
+<https://w3id.org/daont#belongsToCPUFamily> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to c p u family" .
+# 
+# https://w3id.org/daont#exposesAPI
+<https://w3id.org/daont#exposesAPI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#exposesAPI> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/devops-infra/software#Software> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#exposesAPI> <http://www.w3.org/2000/01/rdf-schema#label> "exposes a p i" .
+# 
+# https://w3id.org/daont#hasBitrate
+<https://w3id.org/daont#hasBitrate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasBitrate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#Port> .
+<https://w3id.org/daont#hasBitrate> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/daont#hasBitrate> <http://www.w3.org/2000/01/rdf-schema#label> "has bitrate" .
+# 
+# https://w3id.org/daont#hasByteSize
+<https://w3id.org/daont#hasByteSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasByteSize> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
+<https://w3id.org/daont#hasByteSize> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/daont#hasByteSize> <http://www.w3.org/2000/01/rdf-schema#label> "has byte size" .
+# 
+# https://w3id.org/daont#hasCPU
+<https://w3id.org/daont#hasCPU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasCPU> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#hasCPU> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#CPU> .
+<https://w3id.org/daont#hasCPU> <http://www.w3.org/2000/01/rdf-schema#label> "has c p u" .
+# 
+# https://w3id.org/daont#hasCPUArchitecture
+<https://w3id.org/daont#hasCPUArchitecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasCPUArchitecture> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#CPU> .
+<https://w3id.org/daont#hasCPUArchitecture> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#CPUArchitecture> .
+<https://w3id.org/daont#hasCPUArchitecture> <http://www.w3.org/2000/01/rdf-schema#label> "has c p u architecture" .
+# 
+# https://w3id.org/daont#hasConnectorType
+<https://w3id.org/daont#hasConnectorType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasConnectorType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#Connector> .
+<https://w3id.org/daont#hasConnectorType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#ConnectorType> .
+<https://w3id.org/daont#hasConnectorType> <http://www.w3.org/2000/01/rdf-schema#label> "has connector type" .
+# 
+# https://w3id.org/daont#hasDatasheet
+<https://w3id.org/daont#hasDatasheet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasDatasheet> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/daont#hasDocumentation> .
+<https://w3id.org/daont#hasDatasheet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#hasDatasheet> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#Datasheet> .
+<https://w3id.org/daont#hasDatasheet> <http://www.w3.org/2000/01/rdf-schema#label> "has datasheet" .
+# 
+# https://w3id.org/daont#hasDocumentation
+<https://w3id.org/daont#hasDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasDocumentation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/daont#hasDocumentation> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#Documentation> .
+<https://w3id.org/daont#hasDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "has documentation" .
+# 
+# https://w3id.org/daont#hasDriver
+<https://w3id.org/daont#hasDriver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasDriver> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#hasDriver> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#Driver> .
+<https://w3id.org/daont#hasDriver> <http://www.w3.org/2000/01/rdf-schema#label> "has driver" .
+# 
+# https://w3id.org/daont#hasFirmware
+<https://w3id.org/daont#hasFirmware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasFirmware> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#hasFirmware> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#Firmware> .
+<https://w3id.org/daont#hasFirmware> <http://www.w3.org/2000/01/rdf-schema#label> "has firmware" .
+# 
+# https://w3id.org/daont#hasFirmwareVersion
+<https://w3id.org/daont#hasFirmwareVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasFirmwareVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#hasFirmwareVersion> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/okn/o/sd#SoftwareVersion> .
+<https://w3id.org/daont#hasFirmwareVersion> <http://www.w3.org/2000/01/rdf-schema#label> "has firmware version" .
+# 
+# https://w3id.org/daont#hasHardwareModel
+<https://w3id.org/daont#hasHardwareModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasHardwareModel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#hasHardwareModel> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#HardwareModel> .
+<https://w3id.org/daont#hasHardwareModel> <http://www.w3.org/2000/01/rdf-schema#label> "has hardware model" .
+# 
+# https://w3id.org/daont#hasInterface
+<https://w3id.org/daont#hasInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasInterface> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#hasInterface> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#Interface> .
+<https://w3id.org/daont#hasInterface> <http://www.w3.org/2000/01/rdf-schema#label> "has interface" .
+# 
+# https://w3id.org/daont#hasMaxClock
+<https://w3id.org/daont#hasMaxClock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasMaxClock> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#CPU> .
+<https://w3id.org/daont#hasMaxClock> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/daont#hasMaxClock> <http://www.w3.org/2000/01/rdf-schema#label> "has max clock" .
+# 
+# https://w3id.org/daont#hasMaximumPowerConsumption
+<https://w3id.org/daont#hasMaximumPowerConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasMaximumPowerConsumption> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#hasMaximumPowerConsumption> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/daont#hasMaximumPowerConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "has maximum power consumption" .
+# 
+# https://w3id.org/daont#hasModelCard
+<https://w3id.org/daont#hasModelCard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasModelCard> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/mls#Model> .
+<https://w3id.org/daont#hasModelCard> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#ModelCard> .
+<https://w3id.org/daont#hasModelCard> <http://www.w3.org/2000/01/rdf-schema#label> "has model card" .
+# 
+# https://w3id.org/daont#hasNetworkingConfiguration
+<https://w3id.org/daont#hasNetworkingConfiguration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasNetworkingConfiguration> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#NetworkingInterface> .
+<https://w3id.org/daont#hasNetworkingConfiguration> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#NetworkingConfiguration> .
+<https://w3id.org/daont#hasNetworkingConfiguration> <http://www.w3.org/2000/01/rdf-schema#label> "has networking configuration" .
+# 
+# https://w3id.org/daont#hasOntologyLanguage
+<https://w3id.org/daont#hasOntologyLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasOntologyLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/fabio/Ontology> .
+<https://w3id.org/daont#hasOntologyLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#OntologyLanguage> .
+<https://w3id.org/daont#hasOntologyLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "has ontology language" .
+# 
+# https://w3id.org/daont#hasRAM
+<https://w3id.org/daont#hasRAM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasRAM> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#hasRAM> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#RAM> .
+<https://w3id.org/daont#hasRAM> <http://www.w3.org/2000/01/rdf-schema#label> "has r a m" .
+# 
+# https://w3id.org/daont#hasRAMSize
+<https://w3id.org/daont#hasRAMSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasRAMSize> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#RAM> .
+<https://w3id.org/daont#hasRAMSize> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/daont#hasRAMSize> <http://www.w3.org/2000/01/rdf-schema#label> "has r a m size" .
+# 
+# https://w3id.org/daont#hasRAMTechnology
+<https://w3id.org/daont#hasRAMTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasRAMTechnology> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#RAM> .
+<https://w3id.org/daont#hasRAMTechnology> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#RAMTechnology> .
+<https://w3id.org/daont#hasRAMTechnology> <http://www.w3.org/2000/01/rdf-schema#label> "has r a m technology" .
+# 
+# https://w3id.org/daont#hasRequirement
+<https://w3id.org/daont#hasRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasRequirement> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#unionOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/mls#Model> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/devops-infra/software#Software> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#hasRequirement> <http://www.w3.org/2000/01/rdf-schema#label> "has requirement" .
+# 
+# https://w3id.org/daont#hasRequirementType
+<https://w3id.org/daont#hasRequirementType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasRequirementType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#Requirement> .
+<https://w3id.org/daont#hasRequirementType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#RequirementType> .
+<https://w3id.org/daont#hasRequirementType> <http://www.w3.org/2000/01/rdf-schema#label> "has requirement type" .
+# 
+# https://w3id.org/daont#hasSBOM
+<https://w3id.org/daont#hasSBOM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasSBOM> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/okn/o/sd#SoftwareVersion> .
+<https://w3id.org/daont#hasSBOM> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#SoftwareBillOfMaterials> .
+<https://w3id.org/daont#hasSBOM> <http://www.w3.org/2000/01/rdf-schema#label> "has s b o m" .
+# 
+# https://w3id.org/daont#hasSignaturesPerSecond
+<https://w3id.org/daont#hasSignaturesPerSecond> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasSignaturesPerSecond> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#CryptographicHardwareItem> .
+<https://w3id.org/daont#hasSignaturesPerSecond> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/daont#hasSignaturesPerSecond> <http://www.w3.org/2000/01/rdf-schema#label> "has signatures per second" .
+# 
+# https://w3id.org/daont#hasSpeedUp
+<https://w3id.org/daont#hasSpeedUp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#hasSpeedUp> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#CryptographicHardwareItem> .
+<https://w3id.org/daont#hasSpeedUp> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/daont#hasSpeedUp> <http://www.w3.org/2000/01/rdf-schema#label> "has speed up" .
+# 
+# https://w3id.org/daont#implementsProtocol
+<https://w3id.org/daont#implementsProtocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#implementsProtocol> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/devops-infra/software#Software> .
+<https://w3id.org/daont#implementsProtocol> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#Protocol> .
+<https://w3id.org/daont#implementsProtocol> <http://www.w3.org/2000/01/rdf-schema#label> "implements protocol" .
+# 
+# https://w3id.org/daont#isAssociatedWithAIActRiskLevel
+<https://w3id.org/daont#isAssociatedWithAIActRiskLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#isAssociatedWithAIActRiskLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/mls#Model> .
+<https://w3id.org/daont#isAssociatedWithAIActRiskLevel> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#AIActRiskLevel> .
+<https://w3id.org/daont#isAssociatedWithAIActRiskLevel> <http://www.w3.org/2000/01/rdf-schema#label> "is associated with a i act risk level" .
+# 
+# https://w3id.org/daont#isAssociatedWithGDPRRiskLevel
+<https://w3id.org/daont#isAssociatedWithGDPRRiskLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#isAssociatedWithGDPRRiskLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/devops-infra/software#Software> .
+<https://w3id.org/daont#isAssociatedWithGDPRRiskLevel> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/dpv#RiskLevel> .
+<https://w3id.org/daont#isAssociatedWithGDPRRiskLevel> <http://www.w3.org/2000/01/rdf-schema#label> "is associated with g d p r risk level" .
+# 
+# https://w3id.org/daont#isMemberOfModelFamily
+<https://w3id.org/daont#isMemberOfModelFamily> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#isMemberOfModelFamily> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/mls#Model> .
+<https://w3id.org/daont#isMemberOfModelFamily> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#ModelFamily> .
+<https://w3id.org/daont#isMemberOfModelFamily> <http://www.w3.org/2000/01/rdf-schema#label> "is member of model family" .
+# 
+# https://w3id.org/daont#isTechnologyVersionOf
+<https://w3id.org/daont#isTechnologyVersionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#isTechnologyVersionOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#TechnologyVersion> .
+<https://w3id.org/daont#isTechnologyVersionOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#Technology> .
+<https://w3id.org/daont#isTechnologyVersionOf> <http://www.w3.org/2000/01/rdf-schema#label> "is technology version of" .
+# 
+# https://w3id.org/daont#isTypicallyConfiguredWith
+<https://w3id.org/daont#isTypicallyConfiguredWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#isTypicallyConfiguredWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/mls#Model> .
+<https://w3id.org/daont#isTypicallyConfiguredWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/mls#HyperParameter> .
+<https://w3id.org/daont#isTypicallyConfiguredWith> <http://www.w3.org/2000/01/rdf-schema#label> "is typically configured with" .
+# 
+# https://w3id.org/daont#isWrittenInProgrammingLanguage
+<https://w3id.org/daont#isWrittenInProgrammingLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#isWrittenInProgrammingLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/devops-infra/software#Software> .
+<https://w3id.org/daont#isWrittenInProgrammingLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/amv#ProgrammingLanguage> .
+<https://w3id.org/daont#isWrittenInProgrammingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "is written in programming language" .
+# 
+# https://w3id.org/daont#providesFeature
+<https://w3id.org/daont#providesFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#providesFeature> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#unionOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/devops-infra/software#Software> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#providesFeature> <http://www.w3.org/2000/01/rdf-schema#range> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#unionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/daont#SoftwareFeature> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/daont#HardwareFeature> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#providesFeature> <http://www.w3.org/2000/01/rdf-schema#label> "provides feature" .
+# 
+# https://w3id.org/daont#referencesConnector
+<https://w3id.org/daont#referencesConnector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#referencesConnector> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#NetworkingInterface> .
+<https://w3id.org/daont#referencesConnector> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#Connector> .
+<https://w3id.org/daont#referencesConnector> <http://www.w3.org/2000/01/rdf-schema#label> "references connector" .
+# 
+# https://w3id.org/daont#referencesPort
+<https://w3id.org/daont#referencesPort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#referencesPort> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#NetworkingInterface> .
+<https://w3id.org/daont#referencesPort> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#Port> .
+<https://w3id.org/daont#referencesPort> <http://www.w3.org/2000/01/rdf-schema#label> "references port" .
+# 
+# https://w3id.org/daont#requiredHardware
+<https://w3id.org/daont#requiredHardware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#requiredHardware> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#HardwareRequirement> .
+<https://w3id.org/daont#requiredHardware> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#requiredHardware> <http://www.w3.org/2000/01/rdf-schema#label> "required hardware" .
+# 
+# https://w3id.org/daont#requiredSoftware
+<https://w3id.org/daont#requiredSoftware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#requiredSoftware> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#SoftwareRequirement> .
+<https://w3id.org/daont#requiredSoftware> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/devops-infra/software#Software> .
+<https://w3id.org/daont#requiredSoftware> <http://www.w3.org/2000/01/rdf-schema#label> "required software" .
+# 
+# https://w3id.org/daont#requiresMaximumValue
+<https://w3id.org/daont#requiresMaximumValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#requiresMaximumValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#Requirement> .
+<https://w3id.org/daont#requiresMaximumValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/daont#requiresMaximumValue> <http://www.w3.org/2000/01/rdf-schema#label> "requires maximum value" .
+# 
+# https://w3id.org/daont#requiresMinimumFirmwareVersion
+<https://w3id.org/daont#requiresMinimumFirmwareVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#requiresMinimumFirmwareVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#HardwareFeature> .
+<https://w3id.org/daont#requiresMinimumFirmwareVersion> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/okn/o/sd#SoftwareVersion> .
+<https://w3id.org/daont#requiresMinimumFirmwareVersion> <http://www.w3.org/2000/01/rdf-schema#label> "requires minimum firmware version" .
+# 
+# https://w3id.org/daont#requiresMinimumValue
+<https://w3id.org/daont#requiresMinimumValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#requiresMinimumValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#Requirement> .
+<https://w3id.org/daont#requiresMinimumValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/daont#requiresMinimumValue> <http://www.w3.org/2000/01/rdf-schema#label> "requires minimum value" .
+# 
+# https://w3id.org/daont#requiresValue
+<https://w3id.org/daont#requiresValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#requiresValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#Requirement> .
+<https://w3id.org/daont#requiresValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/daont#requiresValue> <http://www.w3.org/2000/01/rdf-schema#label> "requires value" .
+# 
+# https://w3id.org/daont#runsOnInterface
+<https://w3id.org/daont#runsOnInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#runsOnInterface> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#Protocol> .
+<https://w3id.org/daont#runsOnInterface> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#Interface> .
+<https://w3id.org/daont#runsOnInterface> <http://www.w3.org/2000/01/rdf-schema#label> "runs on interface" .
+# 
+# https://w3id.org/daont#supportsAlgorithm
+<https://w3id.org/daont#supportsAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#supportsAlgorithm> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#unionOf> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/devops-infra/software#Software> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#supportsAlgorithm> <http://www.w3.org/2000/01/rdf-schema#label> "supports algorithm" .
+# 
+# https://w3id.org/daont#supportsInterfaceTechnology
+<https://w3id.org/daont#supportsInterfaceTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#supportsInterfaceTechnology> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#supportsInterfaceTechnology> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#InterfaceTechnology> .
+<https://w3id.org/daont#supportsInterfaceTechnology> <http://www.w3.org/2000/01/rdf-schema#label> "supports interface technology" .
+# 
+# https://w3id.org/daont#usesDriver
+<https://w3id.org/daont#usesDriver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#usesDriver> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#NetworkingConfiguration> .
+<https://w3id.org/daont#usesDriver> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#Driver> .
+<https://w3id.org/daont#usesDriver> <http://www.w3.org/2000/01/rdf-schema#label> "uses driver" .
+# 
+# https://w3id.org/daont#usesDriverVersion
+<https://w3id.org/daont#usesDriverVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#usesDriverVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#NetworkingConfiguration> .
+<https://w3id.org/daont#usesDriverVersion> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/okn/o/sd#SoftwareVersion> .
+<https://w3id.org/daont#usesDriverVersion> <http://www.w3.org/2000/01/rdf-schema#label> "uses driver version" .
+# 
+# https://w3id.org/daont#usesFirmware
+<https://w3id.org/daont#usesFirmware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#usesFirmware> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#NetworkingConfiguration> .
+<https://w3id.org/daont#usesFirmware> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#Firmware> .
+<https://w3id.org/daont#usesFirmware> <http://www.w3.org/2000/01/rdf-schema#label> "uses firmware" .
+# 
+# https://w3id.org/daont#usesFirmwareVersion
+<https://w3id.org/daont#usesFirmwareVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#usesFirmwareVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#NetworkingConfiguration> .
+<https://w3id.org/daont#usesFirmwareVersion> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/okn/o/sd#SoftwareVersion> .
+<https://w3id.org/daont#usesFirmwareVersion> <http://www.w3.org/2000/01/rdf-schema#label> "uses firmware version" .
+# 
+# https://w3id.org/daont#usesInterfaceTechnology
+<https://w3id.org/daont#usesInterfaceTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#usesInterfaceTechnology> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#Interface> .
+<https://w3id.org/daont#usesInterfaceTechnology> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#InterfaceTechnology> .
+<https://w3id.org/daont#usesInterfaceTechnology> <http://www.w3.org/2000/01/rdf-schema#label> "uses interface technology" .
+# 
+# https://w3id.org/daont#usesInterfaceTechnologyVersion
+<https://w3id.org/daont#usesInterfaceTechnologyVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/daont#usesInterfaceTechnologyVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#Interface> .
+<https://w3id.org/daont#usesInterfaceTechnologyVersion> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/daont#InterfaceTechnologyVersion> .
+<https://w3id.org/daont#usesInterfaceTechnologyVersion> <http://www.w3.org/2000/01/rdf-schema#label> "uses interface technology version" .
+# 
+# https://w3id.org/okn/o/sd#hasSoftwareVersion
+<https://w3id.org/okn/o/sd#hasSoftwareVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/okn/o/sd#hasSoftwareVersion> <http://www.w3.org/2000/01/rdf-schema#label> "has software version" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://data.europa.eu/it6/size
+<http://data.europa.eu/it6/size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/size> <http://www.w3.org/2000/01/rdf-schema#label> "size" .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "identifier" .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.w3.org/ns/dcat#accessURL
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "access u r l" .
+# 
+# http://www.w3.org/ns/mls#hasValue
+<http://www.w3.org/ns/mls#hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/ns/mls#hasValue> <http://www.w3.org/2000/01/rdf-schema#label> "has value" .
+# 
+# https://schema.org/url
+<https://schema.org/url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://schema.org/url> <http://www.w3.org/2000/01/rdf-schema#label> "url" .
+# 
+# https://w3id.org/daont#availableAtSPARQLEndpoint
+<https://w3id.org/daont#availableAtSPARQLEndpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/daont#availableAtSPARQLEndpoint> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/fabio/Ontology> .
+<https://w3id.org/daont#availableAtSPARQLEndpoint> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/daont#availableAtSPARQLEndpoint> <http://www.w3.org/2000/01/rdf-schema#label> "available at s p a r q l endpoint" .
+# 
+# https://w3id.org/daont#compliesWithAIAct
+<https://w3id.org/daont#compliesWithAIAct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/daont#compliesWithAIAct> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/mls#Model> .
+<https://w3id.org/daont#compliesWithAIAct> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/daont#compliesWithAIAct> <http://www.w3.org/2000/01/rdf-schema#label> "complies with a i act" .
+# 
+# https://w3id.org/daont#compliesWithGDPR
+<https://w3id.org/daont#compliesWithGDPR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/daont#compliesWithGDPR> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/devops-infra/software#Software> .
+<https://w3id.org/daont#compliesWithGDPR> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/daont#compliesWithGDPR> <http://www.w3.org/2000/01/rdf-schema#label> "complies with g d p r" .
+# 
+# https://w3id.org/daont#involvesPersonalData
+<https://w3id.org/daont#involvesPersonalData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/daont#involvesPersonalData> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/daont#involvesPersonalData> <http://www.w3.org/2000/01/rdf-schema#label> "involves personal data" .
+# 
+# https://w3id.org/daont#isIntendedForEdgeExecution
+<https://w3id.org/daont#isIntendedForEdgeExecution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/daont#isIntendedForEdgeExecution> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/mls#Model> .
+<https://w3id.org/daont#isIntendedForEdgeExecution> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/daont#isIntendedForEdgeExecution> <http://www.w3.org/2000/01/rdf-schema#label> "is intended for edge execution" .
+# 
+# https://w3id.org/daont#isTransportable
+<https://w3id.org/daont#isTransportable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/daont#isTransportable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#isTransportable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/daont#isTransportable> <http://www.w3.org/2000/01/rdf-schema#label> "is transportable" .
+# 
+# https://w3id.org/daont#numberOfCores
+<https://w3id.org/daont#numberOfCores> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/daont#numberOfCores> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#CPU> .
+<https://w3id.org/daont#numberOfCores> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/daont#numberOfCores> <http://www.w3.org/2000/01/rdf-schema#label> "number of cores" .
+# 
+# https://w3id.org/daont#numberOfLanes
+<https://w3id.org/daont#numberOfLanes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/daont#numberOfLanes> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/daont#HostInterface> .
+<https://w3id.org/daont#numberOfLanes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/daont#numberOfLanes> <http://www.w3.org/2000/01/rdf-schema#label> "number of lanes" .
+# 
+# https://w3id.org/okn/o/sd#hasVersionId
+<https://w3id.org/okn/o/sd#hasVersionId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/okn/o/sd#hasVersionId> <http://www.w3.org/2000/01/rdf-schema#label> "has version id" .
+# 
+# https://w3id.org/okn/o/sd#softwareRequirements
+<https://w3id.org/okn/o/sd#softwareRequirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/okn/o/sd#softwareRequirements> <http://www.w3.org/2000/01/rdf-schema#label> "software requirements" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://data.europa.eu/it6/Modality
+<http://data.europa.eu/it6/Modality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/Modality> <http://www.w3.org/2000/01/rdf-schema#label> "Modality" .
+# 
+# http://purl.org/dc/terms/FileFormat
+<http://purl.org/dc/terms/FileFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/terms/FileFormat> <http://www.w3.org/2000/01/rdf-schema#label> "File Format" .
+# 
+# http://purl.org/dc/terms/Frequency
+<http://purl.org/dc/terms/Frequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/terms/Frequency> <http://www.w3.org/2000/01/rdf-schema#label> "Frequency" .
+# 
+# http://purl.org/dc/terms/LicenseDocument
+<http://purl.org/dc/terms/LicenseDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/terms/LicenseDocument> <http://www.w3.org/2000/01/rdf-schema#label> "License Document" .
+# 
+# http://purl.org/dc/terms/LinguisticSystem
+<http://purl.org/dc/terms/LinguisticSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/terms/LinguisticSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Linguistic System" .
+# 
+# http://purl.org/dc/terms/Location
+<http://purl.org/dc/terms/Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/terms/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location" .
+# 
+# http://purl.org/dc/terms/MediaTypeOrExtent
+<http://purl.org/dc/terms/MediaTypeOrExtent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/terms/MediaTypeOrExtent> <http://www.w3.org/2000/01/rdf-schema#label> "Media Type Or Extent" .
+# 
+# http://purl.org/dc/terms/RightsStatement
+<http://purl.org/dc/terms/RightsStatement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/terms/RightsStatement> <http://www.w3.org/2000/01/rdf-schema#label> "Rights Statement" .
+# 
+# http://purl.org/dc/terms/Standard
+<http://purl.org/dc/terms/Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/terms/Standard> <http://www.w3.org/2000/01/rdf-schema#label> "Standard" .
+# 
+# http://purl.org/spar/fabio/Algorithm
+<http://purl.org/spar/fabio/Algorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/fabio/Algorithm> <http://www.w3.org/2000/01/rdf-schema#label> "Algorithm" .
+# 
+# http://purl.org/spar/fabio/ApplicationProgrammingInterface
+<http://purl.org/spar/fabio/ApplicationProgrammingInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/fabio/ApplicationProgrammingInterface> <http://www.w3.org/2000/01/rdf-schema#label> "Application Programming Interface" .
+# 
+# http://purl.org/spar/fabio/Ontology
+<http://purl.org/spar/fabio/Ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/fabio/Ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology" .
+# 
+# http://purl.org/spar/fabio/OntologyDocument
+<http://purl.org/spar/fabio/OntologyDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/fabio/OntologyDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology Document" .
+# 
+# http://qudt.org/schema/qudt/QuantityValue
+<http://qudt.org/schema/qudt/QuantityValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qudt.org/schema/qudt/QuantityValue> <http://www.w3.org/2000/01/rdf-schema#label> "Quantity Value" .
+# 
+# http://qudt.org/schema/qudt/Unit
+<http://qudt.org/schema/qudt/Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qudt.org/schema/qudt/Unit> <http://www.w3.org/2000/01/rdf-schema#label> "Unit" .
+# 
+# http://w3id.org/devops-infra/core#Resource
+<http://w3id.org/devops-infra/core#Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/devops-infra/core#Resource> <http://www.w3.org/2000/01/rdf-schema#label> "Resource" .
+# 
+# http://w3id.org/devops-infra/hardware#HardwareItem
+<http://w3id.org/devops-infra/hardware#HardwareItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/devops-infra/hardware#HardwareItem> <http://www.w3.org/2000/01/rdf-schema#label> "Hardware Item" .
+# 
+# http://w3id.org/devops-infra/software#File
+<http://w3id.org/devops-infra/software#File> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/devops-infra/software#File> <http://www.w3.org/2000/01/rdf-schema#label> "File" .
+# 
+# http://w3id.org/devops-infra/software#Software
+<http://w3id.org/devops-infra/software#Software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/devops-infra/software#Software> <http://www.w3.org/2000/01/rdf-schema#label> "Software" .
+# 
+# http://www.w3.org/2002/07/owl#Thing
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/2000/01/rdf-schema#label> "Thing" .
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "Concept" .
+# 
+# http://www.w3.org/ns/dcat#Dataset
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset" .
+# 
+# http://www.w3.org/ns/dcat#Distribution
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#label> "Distribution" .
+# 
+# http://www.w3.org/ns/locn#Address
+<http://www.w3.org/ns/locn#Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/locn#Address> <http://www.w3.org/2000/01/rdf-schema#label> "Address" .
+# 
+# http://www.w3.org/ns/mls#Data
+<http://www.w3.org/ns/mls#Data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/mls#Data> <http://www.w3.org/2000/01/rdf-schema#label> "Data" .
+# 
+# http://www.w3.org/ns/mls#EvaluationMeasure
+<http://www.w3.org/ns/mls#EvaluationMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/mls#EvaluationMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluation Measure" .
+# 
+# http://www.w3.org/ns/mls#HyperParameter
+<http://www.w3.org/ns/mls#HyperParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/mls#HyperParameter> <http://www.w3.org/2000/01/rdf-schema#label> "Hyper Parameter" .
+# 
+# http://www.w3.org/ns/mls#Model
+<http://www.w3.org/ns/mls#Model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/mls#Model> <http://www.w3.org/2000/01/rdf-schema#label> "Model" .
+# 
+# http://www.w3.org/ns/mls#ModelEvaluation
+<http://www.w3.org/ns/mls#ModelEvaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/mls#ModelEvaluation> <http://www.w3.org/2000/01/rdf-schema#label> "Model Evaluation" .
+# 
+# http://www.w3.org/ns/mls#Run
+<http://www.w3.org/ns/mls#Run> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/mls#Run> <http://www.w3.org/2000/01/rdf-schema#label> "Run" .
+# 
+# http://www.w3.org/ns/prov#Agent
+<http://www.w3.org/ns/prov#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/prov#Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent" .
+# 
+# http://www.w3.org/ns/ssn/Property
+<http://www.w3.org/ns/ssn/Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/ssn/Property> <http://www.w3.org/2000/01/rdf-schema#label> "Property" .
+# 
+# https://w3id.org/amv#ProgrammingLanguage
+<https://w3id.org/amv#ProgrammingLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/amv#ProgrammingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "Programming Language" .
+# 
+# https://w3id.org/daont#AIActRiskLevel
+<https://w3id.org/daont#AIActRiskLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#AIActRiskLevel> <http://www.w3.org/2000/01/rdf-schema#label> "A I Act Risk Level" .
+# 
+# https://w3id.org/daont#CPU
+<https://w3id.org/daont#CPU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#CPU> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#CPU> <http://www.w3.org/2000/01/rdf-schema#label> "C P U" .
+# 
+# https://w3id.org/daont#CPUArchitecture
+<https://w3id.org/daont#CPUArchitecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#CPUArchitecture> <http://www.w3.org/2000/01/rdf-schema#label> "C P U Architecture" .
+# 
+# https://w3id.org/daont#CPUFamily
+<https://w3id.org/daont#CPUFamily> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#CPUFamily> <http://www.w3.org/2000/01/rdf-schema#label> "C P U Family" .
+# 
+# https://w3id.org/daont#ClassicalAlgorithm
+<https://w3id.org/daont#ClassicalAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#ClassicalAlgorithm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/fabio/Algorithm> .
+<https://w3id.org/daont#ClassicalAlgorithm> <http://www.w3.org/2000/01/rdf-schema#label> "Classical Algorithm" .
+# 
+# https://w3id.org/daont#Connector
+<https://w3id.org/daont#Connector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#Connector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#Connector> <http://www.w3.org/2000/01/rdf-schema#label> "Connector" .
+# 
+# https://w3id.org/daont#ConnectorType
+<https://w3id.org/daont#ConnectorType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#ConnectorType> <http://www.w3.org/2000/01/rdf-schema#label> "Connector Type" .
+# 
+# https://w3id.org/daont#CryptographicAlgorithm
+<https://w3id.org/daont#CryptographicAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#CryptographicAlgorithm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/fabio/Algorithm> .
+<https://w3id.org/daont#CryptographicAlgorithm> <http://www.w3.org/2000/01/rdf-schema#label> "Cryptographic Algorithm" .
+# 
+# https://w3id.org/daont#CryptographicHardwareItem
+<https://w3id.org/daont#CryptographicHardwareItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#CryptographicHardwareItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#CryptographicHardwareItem> <http://www.w3.org/2000/01/rdf-schema#label> "Cryptographic Hardware Item" .
+# 
+# https://w3id.org/daont#DPU
+<https://w3id.org/daont#DPU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#DPU> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#DPU> <http://www.w3.org/2000/01/rdf-schema#label> "D P U" .
+# 
+# https://w3id.org/daont#Datasheet
+<https://w3id.org/daont#Datasheet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#Datasheet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/daont#Documentation> .
+<https://w3id.org/daont#Datasheet> <http://www.w3.org/2000/01/rdf-schema#label> "Datasheet" .
+# 
+# https://w3id.org/daont#DigitalAsset
+<https://w3id.org/daont#DigitalAsset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#DigitalAsset> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Asset" .
+# 
+# https://w3id.org/daont#Documentation
+<https://w3id.org/daont#Documentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#Documentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/devops-infra/core#Resource> .
+<https://w3id.org/daont#Documentation> <http://www.w3.org/2000/01/rdf-schema#label> "Documentation" .
+# 
+# https://w3id.org/daont#Driver
+<https://w3id.org/daont#Driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#Driver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/devops-infra/software#Software> .
+<https://w3id.org/daont#Driver> <http://www.w3.org/2000/01/rdf-schema#label> "Driver" .
+# 
+# https://w3id.org/daont#EdgeNode
+<https://w3id.org/daont#EdgeNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#EdgeNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#EdgeNode> <http://www.w3.org/2000/01/rdf-schema#label> "Edge Node" .
+# 
+# https://w3id.org/daont#Firmware
+<https://w3id.org/daont#Firmware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#Firmware> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/devops-infra/software#Software> .
+<https://w3id.org/daont#Firmware> <http://www.w3.org/2000/01/rdf-schema#label> "Firmware" .
+# 
+# https://w3id.org/daont#HardwareFeature
+<https://w3id.org/daont#HardwareFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#HardwareFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Hardware Feature" .
+# 
+# https://w3id.org/daont#HardwareModel
+<https://w3id.org/daont#HardwareModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#HardwareModel> <http://www.w3.org/2000/01/rdf-schema#label> "Hardware Model" .
+# 
+# https://w3id.org/daont#HardwareRequirement
+<https://w3id.org/daont#HardwareRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#HardwareRequirement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/daont#Requirement> .
+<https://w3id.org/daont#HardwareRequirement> <http://www.w3.org/2000/01/rdf-schema#label> "Hardware Requirement" .
+# 
+# https://w3id.org/daont#HardwareType
+<https://w3id.org/daont#HardwareType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#HardwareType> <http://www.w3.org/2000/01/rdf-schema#label> "Hardware Type" .
+# 
+# https://w3id.org/daont#HostInterface
+<https://w3id.org/daont#HostInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#HostInterface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/daont#Interface> .
+<https://w3id.org/daont#HostInterface> <http://www.w3.org/2000/01/rdf-schema#label> "Host Interface" .
+# 
+# https://w3id.org/daont#Interface
+<https://w3id.org/daont#Interface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#Interface> <http://www.w3.org/2000/01/rdf-schema#label> "Interface" .
+# 
+# https://w3id.org/daont#InterfaceTechnology
+<https://w3id.org/daont#InterfaceTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#InterfaceTechnology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/daont#Technology> .
+<https://w3id.org/daont#InterfaceTechnology> <http://www.w3.org/2000/01/rdf-schema#label> "Interface Technology" .
+# 
+# https://w3id.org/daont#InterfaceTechnologyVersion
+<https://w3id.org/daont#InterfaceTechnologyVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#InterfaceTechnologyVersion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/daont#TechnologyVersion> .
+<https://w3id.org/daont#InterfaceTechnologyVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Interface Technology Version" .
+# 
+# https://w3id.org/daont#ModelCard
+<https://w3id.org/daont#ModelCard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#ModelCard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/daont#Documentation> .
+<https://w3id.org/daont#ModelCard> <http://www.w3.org/2000/01/rdf-schema#label> "Model Card" .
+# 
+# https://w3id.org/daont#ModelFamily
+<https://w3id.org/daont#ModelFamily> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#ModelFamily> <http://www.w3.org/2000/01/rdf-schema#label> "Model Family" .
+# 
+# https://w3id.org/daont#ModelWeights
+<https://w3id.org/daont#ModelWeights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#ModelWeights> <http://www.w3.org/2000/01/rdf-schema#label> "Model Weights" .
+# 
+# https://w3id.org/daont#NetworkingConfiguration
+<https://w3id.org/daont#NetworkingConfiguration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#NetworkingConfiguration> <http://www.w3.org/2000/01/rdf-schema#label> "Networking Configuration" .
+# 
+# https://w3id.org/daont#NetworkingInterface
+<https://w3id.org/daont#NetworkingInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#NetworkingInterface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/daont#Interface> .
+<https://w3id.org/daont#NetworkingInterface> <http://www.w3.org/2000/01/rdf-schema#label> "Networking Interface" .
+# 
+# https://w3id.org/daont#OntologyLanguage
+<https://w3id.org/daont#OntologyLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#OntologyLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology Language" .
+# 
+# https://w3id.org/daont#OperatingSystem
+<https://w3id.org/daont#OperatingSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#OperatingSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/devops-infra/software#Software> .
+<https://w3id.org/daont#OperatingSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Operating System" .
+# 
+# https://w3id.org/daont#PQCAccelerator
+<https://w3id.org/daont#PQCAccelerator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#PQCAccelerator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/daont#CryptographicHardwareItem> .
+<https://w3id.org/daont#PQCAccelerator> <http://www.w3.org/2000/01/rdf-schema#label> "P Q C Accelerator" .
+# 
+# https://w3id.org/daont#PhysicalInterface
+<https://w3id.org/daont#PhysicalInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#PhysicalInterface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid16 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/daont#Interface> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/daont#PhysicalInterface> <http://www.w3.org/2000/01/rdf-schema#label> "Physical Interface" .
+# 
+# https://w3id.org/daont#Port
+<https://w3id.org/daont#Port> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#Port> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/daont#PhysicalInterface> .
+<https://w3id.org/daont#Port> <http://www.w3.org/2000/01/rdf-schema#label> "Port" .
+# 
+# https://w3id.org/daont#PostQuantumCryptographicAlgorithm
+<https://w3id.org/daont#PostQuantumCryptographicAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#PostQuantumCryptographicAlgorithm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/daont#CryptographicAlgorithm> .
+<https://w3id.org/daont#PostQuantumCryptographicAlgorithm> <http://www.w3.org/2000/01/rdf-schema#label> "Post Quantum Cryptographic Algorithm" .
+# 
+# https://w3id.org/daont#Protocol
+<https://w3id.org/daont#Protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#Protocol> <http://www.w3.org/2000/01/rdf-schema#label> "Protocol" .
+# 
+# https://w3id.org/daont#QuantumResistantSecureElement
+<https://w3id.org/daont#QuantumResistantSecureElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#QuantumResistantSecureElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/daont#CryptographicHardwareItem> .
+<https://w3id.org/daont#QuantumResistantSecureElement> <http://www.w3.org/2000/01/rdf-schema#label> "Quantum Resistant Secure Element" .
+# 
+# https://w3id.org/daont#RAM
+<https://w3id.org/daont#RAM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#RAM> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/devops-infra/hardware#HardwareItem> .
+<https://w3id.org/daont#RAM> <http://www.w3.org/2000/01/rdf-schema#label> "R A M" .
+# 
+# https://w3id.org/daont#RAMTechnology
+<https://w3id.org/daont#RAMTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#RAMTechnology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/daont#Technology> .
+<https://w3id.org/daont#RAMTechnology> <http://www.w3.org/2000/01/rdf-schema#label> "R A M Technology" .
+# 
+# https://w3id.org/daont#Requirement
+<https://w3id.org/daont#Requirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#Requirement> <http://www.w3.org/2000/01/rdf-schema#label> "Requirement" .
+# 
+# https://w3id.org/daont#RequirementType
+<https://w3id.org/daont#RequirementType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#RequirementType> <http://www.w3.org/2000/01/rdf-schema#label> "Requirement Type" .
+# 
+# https://w3id.org/daont#SignatureAlgorithm
+<https://w3id.org/daont#SignatureAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#SignatureAlgorithm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/daont#CryptographicAlgorithm> .
+<https://w3id.org/daont#SignatureAlgorithm> <http://www.w3.org/2000/01/rdf-schema#label> "Signature Algorithm" .
+# 
+# https://w3id.org/daont#SoftwareBillOfMaterials
+<https://w3id.org/daont#SoftwareBillOfMaterials> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#SoftwareBillOfMaterials> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid19 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/daont#Documentation> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/devops-infra/software#File> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/daont#SoftwareBillOfMaterials> <http://www.w3.org/2000/01/rdf-schema#label> "Software Bill Of Materials" .
+# 
+# https://w3id.org/daont#SoftwareFeature
+<https://w3id.org/daont#SoftwareFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#SoftwareFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Software Feature" .
+# 
+# https://w3id.org/daont#SoftwareRequirement
+<https://w3id.org/daont#SoftwareRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#SoftwareRequirement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/daont#Requirement> .
+<https://w3id.org/daont#SoftwareRequirement> <http://www.w3.org/2000/01/rdf-schema#label> "Software Requirement" .
+# 
+# https://w3id.org/daont#SoftwareType
+<https://w3id.org/daont#SoftwareType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#SoftwareType> <http://www.w3.org/2000/01/rdf-schema#label> "Software Type" .
+# 
+# https://w3id.org/daont#Technology
+<https://w3id.org/daont#Technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#Technology> <http://www.w3.org/2000/01/rdf-schema#label> "Technology" .
+# 
+# https://w3id.org/daont#TechnologyVersion
+<https://w3id.org/daont#TechnologyVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#TechnologyVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Technology Version" .
+# 
+# https://w3id.org/daont#VirtualInterface
+<https://w3id.org/daont#VirtualInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/daont#VirtualInterface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid22 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/daont#Interface> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/devops-infra/software#Software> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/daont#VirtualInterface> <http://www.w3.org/2000/01/rdf-schema#label> "Virtual Interface" .
+# 
+# https://w3id.org/dpv#RiskLevel
+<https://w3id.org/dpv#RiskLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/dpv#RiskLevel> <http://www.w3.org/2000/01/rdf-schema#label> "Risk Level" .
+# 
+# https://w3id.org/okn/o/sd#SoftwareVersion
+<https://w3id.org/okn/o/sd#SoftwareVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/okn/o/sd#SoftwareVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Software Version" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://creativecommons.org/licenses/by/4.0/
+<https://creativecommons.org/licenses/by/4.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://w3id.org/daont
+<https://w3id.org/daont> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/daont> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+# 
+# https://w3id.org/daont#Ethernet
+<https://w3id.org/daont#Ethernet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/daont#Ethernet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/daont#InterfaceTechnology> .
+# 
+# https://w3id.org/daont#HighRisk
+<https://w3id.org/daont#HighRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/daont#HighRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/daont#AIActRiskLevel> .
+# 
+# https://w3id.org/daont#LimitedRisk
+<https://w3id.org/daont#LimitedRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/daont#LimitedRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/daont#AIActRiskLevel> .
+# 
+# https://w3id.org/daont#MinimalRisk
+<https://w3id.org/daont#MinimalRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/daont#MinimalRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/daont#AIActRiskLevel> .
+# 
+# https://w3id.org/daont#OWL
+<https://w3id.org/daont#OWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/daont#OWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/daont#OntologyLanguage> .
+# 
+# https://w3id.org/daont#PCIexpress
+<https://w3id.org/daont#PCIexpress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/daont#PCIexpress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/daont#InterfaceTechnology> .
+# 
+# https://w3id.org/daont#RDF
+<https://w3id.org/daont#RDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/daont#RDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/daont#OntologyLanguage> .
+# 
+# https://w3id.org/daont#RDFS
+<https://w3id.org/daont#RDFS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/daont#RDFS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/daont#OntologyLanguage> .
+# 
+# https://w3id.org/daont#Recommended
+<https://w3id.org/daont#Recommended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/daont#Recommended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/daont#RequirementType> .
+# 
+# https://w3id.org/daont#Required
+<https://w3id.org/daont#Required> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/daont#Required> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/daont#RequirementType> .
+# 
+# https://w3id.org/daont#SPS
+<https://w3id.org/daont#SPS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/daont#SPS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/Unit> .
+# 
+# https://w3id.org/daont#UnacceptableRisk
+<https://w3id.org/daont#UnacceptableRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/daont#UnacceptableRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/daont#AIActRiskLevel> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://purl.org/dc/terms/creator> <http://www.w3.org/2000/01/rdf-schema#label> "creator" .
+# 
+<http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#label> "description" .
+# 
+<http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#label> "license" .
+# 
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/2000/01/rdf-schema#label> "publisher" .
+# 
+<http://purl.org/dc/terms/title> <http://www.w3.org/2000/01/rdf-schema#label> "title" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

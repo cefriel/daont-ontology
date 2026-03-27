@@ -1,0 +1,617 @@
+<h2 id="overv" class="list">Digital Assets Ontology (DAOnt): Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Classes</h4>
+<ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#AIActRiskLevel" title="https://w3id.org/daont#AIActRiskLevel">A I Act Risk Level</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/locn#Address" title="http://www.w3.org/ns/locn#Address">Address</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/prov#Agent" title="http://www.w3.org/ns/prov#Agent">Agent</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/spar/fabio/Algorithm" title="http://purl.org/spar/fabio/Algorithm">Algorithm</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/spar/fabio/ApplicationProgrammingInterface"
+         title="http://purl.org/spar/fabio/ApplicationProgrammingInterface">Application Programming Interface</a>
+   </li>
+   <li>
+      <a href="#CPU" title="https://w3id.org/daont#CPU">C P U</a>
+   </li>
+   <li>
+      <a href="#CPUArchitecture" title="https://w3id.org/daont#CPUArchitecture">C P U Architecture</a>
+   </li>
+   <li>
+      <a href="#CPUFamily" title="https://w3id.org/daont#CPUFamily">C P U Family</a>
+   </li>
+   <li>
+      <a href="#ClassicalAlgorithm" title="https://w3id.org/daont#ClassicalAlgorithm">Classical Algorithm</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
+   </li>
+   <li>
+      <a href="#Connector" title="https://w3id.org/daont#Connector">Connector</a>
+   </li>
+   <li>
+      <a href="#ConnectorType" title="https://w3id.org/daont#ConnectorType">Connector Type</a>
+   </li>
+   <li>
+      <a href="#CryptographicAlgorithm" title="https://w3id.org/daont#CryptographicAlgorithm">Cryptographic Algorithm</a>
+   </li>
+   <li>
+      <a href="#CryptographicHardwareItem"
+         title="https://w3id.org/daont#CryptographicHardwareItem">Cryptographic Hardware Item</a>
+   </li>
+   <li>
+      <a href="#DPU" title="https://w3id.org/daont#DPU">D P U</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/mls#Data" title="http://www.w3.org/ns/mls#Data">Data</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/dcat#Dataset" title="http://www.w3.org/ns/dcat#Dataset">Dataset</a>
+   </li>
+   <li>
+      <a href="#Datasheet" title="https://w3id.org/daont#Datasheet">Datasheet</a>
+   </li>
+   <li>
+      <a href="#DigitalAsset" title="https://w3id.org/daont#DigitalAsset">Digital Asset</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/dcat#Distribution" title="http://www.w3.org/ns/dcat#Distribution">Distribution</a>
+   </li>
+   <li>
+      <a href="#Documentation" title="https://w3id.org/daont#Documentation">Documentation</a>
+   </li>
+   <li>
+      <a href="#Driver" title="https://w3id.org/daont#Driver">Driver</a>
+   </li>
+   <li>
+      <a href="#EdgeNode" title="https://w3id.org/daont#EdgeNode">Edge Node</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/mls#EvaluationMeasure" title="http://www.w3.org/ns/mls#EvaluationMeasure">Evaluation Measure</a>
+   </li>
+   <li>
+      <a href="#http://w3id.org/devops-infra/software#File" title="http://w3id.org/devops-infra/software#File">File</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/FileFormat" title="http://purl.org/dc/terms/FileFormat">File Format</a>
+   </li>
+   <li>
+      <a href="#Firmware" title="https://w3id.org/daont#Firmware">Firmware</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/Frequency" title="http://purl.org/dc/terms/Frequency">Frequency</a>
+   </li>
+   <li>
+      <a href="#HardwareFeature" title="https://w3id.org/daont#HardwareFeature">Hardware Feature</a>
+   </li>
+   <li>
+      <a href="#http://w3id.org/devops-infra/hardware#HardwareItem"
+         title="http://w3id.org/devops-infra/hardware#HardwareItem">Hardware Item</a>
+   </li>
+   <li>
+      <a href="#HardwareModel" title="https://w3id.org/daont#HardwareModel">Hardware Model</a>
+   </li>
+   <li>
+      <a href="#HardwareRequirement" title="https://w3id.org/daont#HardwareRequirement">Hardware Requirement</a>
+   </li>
+   <li>
+      <a href="#HardwareType" title="https://w3id.org/daont#HardwareType">Hardware Type</a>
+   </li>
+   <li>
+      <a href="#HostInterface" title="https://w3id.org/daont#HostInterface">Host Interface</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/mls#HyperParameter" title="http://www.w3.org/ns/mls#HyperParameter">Hyper Parameter</a>
+   </li>
+   <li>
+      <a href="#Interface" title="https://w3id.org/daont#Interface">Interface</a>
+   </li>
+   <li>
+      <a href="#InterfaceTechnology" title="https://w3id.org/daont#InterfaceTechnology">Interface Technology</a>
+   </li>
+   <li>
+      <a href="#InterfaceTechnologyVersion"
+         title="https://w3id.org/daont#InterfaceTechnologyVersion">Interface Technology Version</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/LicenseDocument" title="http://purl.org/dc/terms/LicenseDocument">License Document</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/LinguisticSystem" title="http://purl.org/dc/terms/LinguisticSystem">Linguistic System</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">Location</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/MediaTypeOrExtent" title="http://purl.org/dc/terms/MediaTypeOrExtent">Media Type Or Extent</a>
+   </li>
+   <li>
+      <a href="#http://data.europa.eu/it6/Modality" title="http://data.europa.eu/it6/Modality">Modality</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/mls#Model" title="http://www.w3.org/ns/mls#Model">Model</a>
+   </li>
+   <li>
+      <a href="#ModelCard" title="https://w3id.org/daont#ModelCard">Model Card</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/mls#ModelEvaluation" title="http://www.w3.org/ns/mls#ModelEvaluation">Model Evaluation</a>
+   </li>
+   <li>
+      <a href="#ModelFamily" title="https://w3id.org/daont#ModelFamily">Model Family</a>
+   </li>
+   <li>
+      <a href="#ModelWeights" title="https://w3id.org/daont#ModelWeights">Model Weights</a>
+   </li>
+   <li>
+      <a href="#NetworkingConfiguration" title="https://w3id.org/daont#NetworkingConfiguration">Networking Configuration</a>
+   </li>
+   <li>
+      <a href="#NetworkingInterface" title="https://w3id.org/daont#NetworkingInterface">Networking Interface</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/spar/fabio/Ontology" title="http://purl.org/spar/fabio/Ontology">Ontology</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/spar/fabio/OntologyDocument" title="http://purl.org/spar/fabio/OntologyDocument">Ontology Document</a>
+   </li>
+   <li>
+      <a href="#OntologyLanguage" title="https://w3id.org/daont#OntologyLanguage">Ontology Language</a>
+   </li>
+   <li>
+      <a href="#OperatingSystem" title="https://w3id.org/daont#OperatingSystem">Operating System</a>
+   </li>
+   <li>
+      <a href="#PQCAccelerator" title="https://w3id.org/daont#PQCAccelerator">P Q C Accelerator</a>
+   </li>
+   <li>
+      <a href="#PhysicalInterface" title="https://w3id.org/daont#PhysicalInterface">Physical Interface</a>
+   </li>
+   <li>
+      <a href="#Port" title="https://w3id.org/daont#Port">Port</a>
+   </li>
+   <li>
+      <a href="#PostQuantumCryptographicAlgorithm"
+         title="https://w3id.org/daont#PostQuantumCryptographicAlgorithm">Post Quantum Cryptographic Algorithm</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/amv#ProgrammingLanguage" title="https://w3id.org/amv#ProgrammingLanguage">Programming Language</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/ssn/Property" title="http://www.w3.org/ns/ssn/Property">Property</a>
+   </li>
+   <li>
+      <a href="#Protocol" title="https://w3id.org/daont#Protocol">Protocol</a>
+   </li>
+   <li>
+      <a href="#http://qudt.org/schema/qudt/QuantityValue" title="http://qudt.org/schema/qudt/QuantityValue">Quantity Value</a>
+   </li>
+   <li>
+      <a href="#QuantumResistantSecureElement"
+         title="https://w3id.org/daont#QuantumResistantSecureElement">Quantum Resistant Secure Element</a>
+   </li>
+   <li>
+      <a href="#RAM" title="https://w3id.org/daont#RAM">R A M</a>
+   </li>
+   <li>
+      <a href="#RAMTechnology" title="https://w3id.org/daont#RAMTechnology">R A M Technology</a>
+   </li>
+   <li>
+      <a href="#Requirement" title="https://w3id.org/daont#Requirement">Requirement</a>
+   </li>
+   <li>
+      <a href="#RequirementType" title="https://w3id.org/daont#RequirementType">Requirement Type</a>
+   </li>
+   <li>
+      <a href="#http://w3id.org/devops-infra/core#Resource" title="http://w3id.org/devops-infra/core#Resource">Resource</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/RightsStatement" title="http://purl.org/dc/terms/RightsStatement">Rights Statement</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/dpv#RiskLevel" title="https://w3id.org/dpv#RiskLevel">Risk Level</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/mls#Run" title="http://www.w3.org/ns/mls#Run">Run</a>
+   </li>
+   <li>
+      <a href="#SignatureAlgorithm" title="https://w3id.org/daont#SignatureAlgorithm">Signature Algorithm</a>
+   </li>
+   <li>
+      <a href="#http://w3id.org/devops-infra/software#Software" title="http://w3id.org/devops-infra/software#Software">Software</a>
+   </li>
+   <li>
+      <a href="#SoftwareBillOfMaterials" title="https://w3id.org/daont#SoftwareBillOfMaterials">Software Bill Of Materials</a>
+   </li>
+   <li>
+      <a href="#SoftwareFeature" title="https://w3id.org/daont#SoftwareFeature">Software Feature</a>
+   </li>
+   <li>
+      <a href="#SoftwareRequirement" title="https://w3id.org/daont#SoftwareRequirement">Software Requirement</a>
+   </li>
+   <li>
+      <a href="#SoftwareType" title="https://w3id.org/daont#SoftwareType">Software Type</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/okn/o/sd#SoftwareVersion" title="https://w3id.org/okn/o/sd#SoftwareVersion">Software Version</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/Standard" title="http://purl.org/dc/terms/Standard">Standard</a>
+   </li>
+   <li>
+      <a href="#Technology" title="https://w3id.org/daont#Technology">Technology</a>
+   </li>
+   <li>
+      <a href="#TechnologyVersion" title="https://w3id.org/daont#TechnologyVersion">Technology Version</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/2002/07/owl#Thing" title="http://www.w3.org/2002/07/owl#Thing">Thing</a>
+   </li>
+   <li>
+      <a href="#http://qudt.org/schema/qudt/Unit" title="http://qudt.org/schema/qudt/Unit">Unit</a>
+   </li>
+   <li>
+      <a href="#VirtualInterface" title="https://w3id.org/daont#VirtualInterface">Virtual Interface</a>
+   </li>
+</ul><h4>Object Properties</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#http://purl.org/dc/terms/accessRights" title="http://purl.org/dc/terms/accessRights">access rights</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/accrualPeriodicity" title="http://purl.org/dc/terms/accrualPeriodicity">accrual periodicity</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/locn#address" title="http://www.w3.org/ns/locn#address">address</a>
+   </li>
+   <li>
+      <a href="#appliesToHardwareType" title="https://w3id.org/daont#appliesToHardwareType">applies to hardware type</a>
+   </li>
+   <li>
+      <a href="#appliesToProperty" title="https://w3id.org/daont#appliesToProperty">applies to property</a>
+   </li>
+   <li>
+      <a href="#appliesToSoftwareType" title="https://w3id.org/daont#appliesToSoftwareType">applies to software type</a>
+   </li>
+   <li>
+      <a href="#belongsToCPUFamily" title="https://w3id.org/daont#belongsToCPUFamily">belongs to c p u family</a>
+   </li>
+   <li>
+      <a href="#http://data.europa.eu/it6/classification" title="http://data.europa.eu/it6/classification">classification</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/conformsTo" title="http://purl.org/dc/terms/conformsTo">conforms to</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/dcat#distribution" title="http://www.w3.org/ns/dcat#distribution">distribution</a>
+   </li>
+   <li>
+      <a href="#exposesAPI" title="https://w3id.org/daont#exposesAPI">exposes a p i</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/format" title="http://purl.org/dc/terms/format">format</a>
+   </li>
+   <li>
+      <a href="#hasBitrate" title="https://w3id.org/daont#hasBitrate">has bitrate</a>
+   </li>
+   <li>
+      <a href="#hasByteSize" title="https://w3id.org/daont#hasByteSize">has byte size</a>
+   </li>
+   <li>
+      <a href="#hasCPU" title="https://w3id.org/daont#hasCPU">has c p u</a>
+   </li>
+   <li>
+      <a href="#hasCPUArchitecture" title="https://w3id.org/daont#hasCPUArchitecture">has c p u architecture</a>
+   </li>
+   <li>
+      <a href="#hasConnectorType" title="https://w3id.org/daont#hasConnectorType">has connector type</a>
+   </li>
+   <li>
+      <a href="#hasDatasheet" title="https://w3id.org/daont#hasDatasheet">has datasheet</a>
+   </li>
+   <li>
+      <a href="#hasDocumentation" title="https://w3id.org/daont#hasDocumentation">has documentation</a>
+   </li>
+   <li>
+      <a href="#hasDriver" title="https://w3id.org/daont#hasDriver">has driver</a>
+   </li>
+   <li>
+      <a href="#hasFirmware" title="https://w3id.org/daont#hasFirmware">has firmware</a>
+   </li>
+   <li>
+      <a href="#hasFirmwareVersion" title="https://w3id.org/daont#hasFirmwareVersion">has firmware version</a>
+   </li>
+   <li>
+      <a href="#hasHardwareModel" title="https://w3id.org/daont#hasHardwareModel">has hardware model</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/mls#hasInput" title="http://www.w3.org/ns/mls#hasInput">has input</a>
+   </li>
+   <li>
+      <a href="#http://data.europa.eu/it6/hasInputModality" title="http://data.europa.eu/it6/hasInputModality">has input modality</a>
+   </li>
+   <li>
+      <a href="#hasInterface" title="https://w3id.org/daont#hasInterface">has interface</a>
+   </li>
+   <li>
+      <a href="#hasMaxClock" title="https://w3id.org/daont#hasMaxClock">has max clock</a>
+   </li>
+   <li>
+      <a href="#hasMaximumPowerConsumption"
+         title="https://w3id.org/daont#hasMaximumPowerConsumption">has maximum power consumption</a>
+   </li>
+   <li>
+      <a href="#hasModelCard" title="https://w3id.org/daont#hasModelCard">has model card</a>
+   </li>
+   <li>
+      <a href="#hasNetworkingConfiguration"
+         title="https://w3id.org/daont#hasNetworkingConfiguration">has networking configuration</a>
+   </li>
+   <li>
+      <a href="#hasOntologyLanguage" title="https://w3id.org/daont#hasOntologyLanguage">has ontology language</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/mls#hasOutput" title="http://www.w3.org/ns/mls#hasOutput">has output</a>
+   </li>
+   <li>
+      <a href="#http://data.europa.eu/it6/hasOutputModality" title="http://data.europa.eu/it6/hasOutputModality">has output modality</a>
+   </li>
+   <li>
+      <a href="#hasRAM" title="https://w3id.org/daont#hasRAM">has r a m</a>
+   </li>
+   <li>
+      <a href="#hasRAMSize" title="https://w3id.org/daont#hasRAMSize">has r a m size</a>
+   </li>
+   <li>
+      <a href="#hasRAMTechnology" title="https://w3id.org/daont#hasRAMTechnology">has r a m technology</a>
+   </li>
+   <li>
+      <a href="#hasRequirement" title="https://w3id.org/daont#hasRequirement">has requirement</a>
+   </li>
+   <li>
+      <a href="#hasRequirementType" title="https://w3id.org/daont#hasRequirementType">has requirement type</a>
+   </li>
+   <li>
+      <a href="#hasSBOM" title="https://w3id.org/daont#hasSBOM">has s b o m</a>
+   </li>
+   <li>
+      <a href="#hasSignaturesPerSecond" title="https://w3id.org/daont#hasSignaturesPerSecond">has signatures per second</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/okn/o/sd#hasSoftwareVersion" title="https://w3id.org/okn/o/sd#hasSoftwareVersion">has software version</a>
+   </li>
+   <li>
+      <a href="#hasSpeedUp" title="https://w3id.org/daont#hasSpeedUp">has speed up</a>
+   </li>
+   <li>
+      <a href="#implementsProtocol" title="https://w3id.org/daont#implementsProtocol">implements protocol</a>
+   </li>
+   <li>
+      <a href="#isAssociatedWithAIActRiskLevel"
+         title="https://w3id.org/daont#isAssociatedWithAIActRiskLevel">is associated with a i act risk level</a>
+   </li>
+   <li>
+      <a href="#isAssociatedWithGDPRRiskLevel"
+         title="https://w3id.org/daont#isAssociatedWithGDPRRiskLevel">is associated with g d p r risk level</a>
+   </li>
+   <li>
+      <a href="#isMemberOfModelFamily" title="https://w3id.org/daont#isMemberOfModelFamily">is member of model family</a>
+   </li>
+   <li>
+      <a href="#isTechnologyVersionOf" title="https://w3id.org/daont#isTechnologyVersionOf">is technology version of</a>
+   </li>
+   <li>
+      <a href="#isTypicallyConfiguredWith" title="https://w3id.org/daont#isTypicallyConfiguredWith">is typically configured with</a>
+   </li>
+   <li>
+      <a href="#isWrittenInProgrammingLanguage"
+         title="https://w3id.org/daont#isWrittenInProgrammingLanguage">is written in programming language</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/language" title="http://purl.org/dc/terms/language">language</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/locn#location" title="http://www.w3.org/ns/locn#location">location</a>
+   </li>
+   <li>
+      <a href="#providesFeature" title="https://w3id.org/daont#providesFeature">provides feature</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/vocab/frbr/core#realization" title="http://purl.org/vocab/frbr/core#realization">realization</a>
+   </li>
+   <li>
+      <a href="#referencesConnector" title="https://w3id.org/daont#referencesConnector">references connector</a>
+   </li>
+   <li>
+      <a href="#referencesPort" title="https://w3id.org/daont#referencesPort">references port</a>
+   </li>
+   <li>
+      <a href="#requiredHardware" title="https://w3id.org/daont#requiredHardware">required hardware</a>
+   </li>
+   <li>
+      <a href="#requiredSoftware" title="https://w3id.org/daont#requiredSoftware">required software</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/requires" title="http://purl.org/dc/terms/requires">requires</a>
+   </li>
+   <li>
+      <a href="#requiresMaximumValue" title="https://w3id.org/daont#requiresMaximumValue">requires maximum value</a>
+   </li>
+   <li>
+      <a href="#requiresMinimumFirmwareVersion"
+         title="https://w3id.org/daont#requiresMinimumFirmwareVersion">requires minimum firmware version</a>
+   </li>
+   <li>
+      <a href="#requiresMinimumValue" title="https://w3id.org/daont#requiresMinimumValue">requires minimum value</a>
+   </li>
+   <li>
+      <a href="#requiresValue" title="https://w3id.org/daont#requiresValue">requires value</a>
+   </li>
+   <li>
+      <a href="#runsOnInterface" title="https://w3id.org/daont#runsOnInterface">runs on interface</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/mls#specifiedBy" title="http://www.w3.org/ns/mls#specifiedBy">specified by</a>
+   </li>
+   <li>
+      <a href="#supportsAlgorithm" title="https://w3id.org/daont#supportsAlgorithm">supports algorithm</a>
+   </li>
+   <li>
+      <a href="#supportsInterfaceTechnology"
+         title="https://w3id.org/daont#supportsInterfaceTechnology">supports interface technology</a>
+   </li>
+   <li>
+      <a href="#http://w3id.org/mlso/trainedOn" title="http://w3id.org/mlso/trainedOn">trained on</a>
+   </li>
+   <li>
+      <a href="#usesDriver" title="https://w3id.org/daont#usesDriver">uses driver</a>
+   </li>
+   <li>
+      <a href="#usesDriverVersion" title="https://w3id.org/daont#usesDriverVersion">uses driver version</a>
+   </li>
+   <li>
+      <a href="#usesFirmware" title="https://w3id.org/daont#usesFirmware">uses firmware</a>
+   </li>
+   <li>
+      <a href="#usesFirmwareVersion" title="https://w3id.org/daont#usesFirmwareVersion">uses firmware version</a>
+   </li>
+   <li>
+      <a href="#usesInterfaceTechnology" title="https://w3id.org/daont#usesInterfaceTechnology">uses interface technology</a>
+   </li>
+   <li>
+      <a href="#usesInterfaceTechnologyVersion"
+         title="https://w3id.org/daont#usesInterfaceTechnologyVersion">uses interface technology version</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/prov#wasDerivedFrom" title="http://www.w3.org/ns/prov#wasDerivedFrom">was derived from</a>
+   </li>
+</ul><h4>Data Properties</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#http://www.w3.org/ns/dcat#accessURL" title="http://www.w3.org/ns/dcat#accessURL">access u r l</a>
+   </li>
+   <li>
+      <a href="#availableAtSPARQLEndpoint"
+         title="https://w3id.org/daont#availableAtSPARQLEndpoint">available at s p a r q l endpoint</a>
+   </li>
+   <li>
+      <a href="#compliesWithAIAct" title="https://w3id.org/daont#compliesWithAIAct">complies with a i act</a>
+   </li>
+   <li>
+      <a href="#compliesWithGDPR" title="https://w3id.org/daont#compliesWithGDPR">complies with g d p r</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/mls#hasValue" title="http://www.w3.org/ns/mls#hasValue">has value</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/okn/o/sd#hasVersionId" title="https://w3id.org/okn/o/sd#hasVersionId">has version id</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/identifier" title="http://purl.org/dc/terms/identifier">identifier</a>
+   </li>
+   <li>
+      <a href="#involvesPersonalData" title="https://w3id.org/daont#involvesPersonalData">involves personal data</a>
+   </li>
+   <li>
+      <a href="#isIntendedForEdgeExecution"
+         title="https://w3id.org/daont#isIntendedForEdgeExecution">is intended for edge execution</a>
+   </li>
+   <li>
+      <a href="#isTransportable" title="https://w3id.org/daont#isTransportable">is transportable</a>
+   </li>
+   <li>
+      <a href="#numberOfCores" title="https://w3id.org/daont#numberOfCores">number of cores</a>
+   </li>
+   <li>
+      <a href="#numberOfLanes" title="https://w3id.org/daont#numberOfLanes">number of lanes</a>
+   </li>
+   <li>
+      <a href="#http://data.europa.eu/it6/size" title="http://data.europa.eu/it6/size">size</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/okn/o/sd#softwareRequirements" title="https://w3id.org/okn/o/sd#softwareRequirements">software requirements</a>
+   </li>
+   <li>
+      <a href="#https://schema.org/url" title="https://schema.org/url">url</a>
+   </li>
+</ul><h4>Named Individuals</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#https://w3id.org/daont" title="https://w3id.org/daont">
+         <span>Digital Assets Ontology (DAOnt)</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Ethernet" title="https://w3id.org/daont#Ethernet">
+         <span>Ethernet</span>
+      </a>
+   </li>
+   <li>
+      <a href="#HighRisk" title="https://w3id.org/daont#HighRisk">
+         <span>High Risk</span>
+      </a>
+   </li>
+   <li>
+      <a href="#LimitedRisk" title="https://w3id.org/daont#LimitedRisk">
+         <span>Limited Risk</span>
+      </a>
+   </li>
+   <li>
+      <a href="#MinimalRisk" title="https://w3id.org/daont#MinimalRisk">
+         <span>Minimal Risk</span>
+      </a>
+   </li>
+   <li>
+      <a href="#OWL" title="https://w3id.org/daont#OWL">
+         <span>O W L</span>
+      </a>
+   </li>
+   <li>
+      <a href="#PCIexpress" title="https://w3id.org/daont#PCIexpress">
+         <span>P C Iexpress</span>
+      </a>
+   </li>
+   <li>
+      <a href="#RDF" title="https://w3id.org/daont#RDF">
+         <span>R D F</span>
+      </a>
+   </li>
+   <li>
+      <a href="#RDFS" title="https://w3id.org/daont#RDFS">
+         <span>R D F S</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Recommended" title="https://w3id.org/daont#Recommended">
+         <span>Recommended</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Required" title="https://w3id.org/daont#Required">
+         <span>Required</span>
+      </a>
+   </li>
+   <li>
+      <a href="#SPS" title="https://w3id.org/daont#SPS">
+         <span>S P S</span>
+      </a>
+   </li>
+   <li>
+      <a href="#UnacceptableRisk" title="https://w3id.org/daont#UnacceptableRisk">
+         <span>Unacceptable Risk</span>
+      </a>
+   </li>
+</ul>

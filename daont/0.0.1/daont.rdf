@@ -1,0 +1,2175 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/daont#"
+     xml:base="https://w3id.org/daont"
+     xmlns:mod="https://w3id.org/mod#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="https://schema.org/">
+    <owl:Ontology rdf:about="https://w3id.org/daont">
+        <owl:versionIRI rdf:resource="https://w3id.org/daont/0.0.1"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1948-807X"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-3139-3049"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0003-1427-3723"/>
+        <terms:description>The Digital Assets Ontology (DAOnt) addresses the digital assets domain, that is, any hardware, software, data, or service that exists in or interacts with a digital ecosystem and provides functional or informational value.</terms:description>
+        <terms:issued>2025-10-27</terms:issued>
+        <terms:modified>2026-03-27</terms:modified>
+        <terms:publisher rdf:resource="https://ror.org/046bfkz44"/>
+        <terms:title>Digital Assets Ontology (DAOnt)</terms:title>
+        <bibo:status xml:lang="en">Draft Ontology</bibo:status>
+        <vann:preferredNamespacePrefix>dao</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/daont#</vann:preferredNamespaceUri>
+        <rdfs:label>Digital Assets Ontology (DAOnt)</rdfs:label>
+        <owl:versionInfo>0.0.1</owl:versionInfo>
+        <schema:citation>Carriero, V.A., Grassi, M., Carenini, A. (2026). Digital Assets Ontology (DAOnt).</schema:citation>
+        <schema:funding rdf:resource="https://doi.org/10.3030/101140087"/>
+        <mod:createdWith rdf:resource="https://chowlk.linkeddata.es/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versionIRI -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionIRI"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versionInfo -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+    
+
+
+    <!-- https://schema.org/citation -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/citation"/>
+    
+
+
+    <!-- https://schema.org/funding -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/funding"/>
+    
+
+
+    <!-- https://w3id.org/mod#createdWith -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/mod#createdWith"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://data.europa.eu/it6/classification -->
+
+
+    <owl:ObjectProperty rdf:about="http://data.europa.eu/it6/classification">
+        <rdfs:domain rdf:resource="http://data.europa.eu/it6/Modality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:label>classification</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://data.europa.eu/it6/hasInputModality -->
+
+
+    <owl:ObjectProperty rdf:about="http://data.europa.eu/it6/hasInputModality">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/mls#Model"/>
+        <rdfs:range rdf:resource="http://data.europa.eu/it6/Modality"/>
+        <rdfs:label>has input modality</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://data.europa.eu/it6/hasOutputModality -->
+
+
+    <owl:ObjectProperty rdf:about="http://data.europa.eu/it6/hasOutputModality">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/mls#Model"/>
+        <rdfs:range rdf:resource="http://data.europa.eu/it6/Modality"/>
+        <rdfs:label>has output modality</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/accessRights -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/accessRights">
+        <rdfs:label>access rights</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/accrualPeriodicity -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
+        <rdfs:label>accrual periodicity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/conformsTo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/conformsTo">
+        <rdfs:label>conforms to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/format -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/format">
+        <rdfs:label>format</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/language -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/language">
+        <rdfs:label>language</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/requires -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/requires">
+        <rdfs:label>requires</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#realization -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/vocab/frbr/core#realization">
+        <rdfs:label>realization</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://w3id.org/mlso/trainedOn -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/mlso/trainedOn">
+        <rdfs:label>trained on</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#distribution -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dcat#distribution">
+        <rdfs:label>distribution</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/locn#address -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/locn#address">
+        <rdfs:label>address</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/locn#location -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/locn#location">
+        <rdfs:label>location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/mls#hasInput -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/mls#hasInput">
+        <rdfs:label>has input</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/mls#hasOutput -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/mls#hasOutput">
+        <rdfs:label>has output</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/mls#specifiedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/mls#specifiedBy">
+        <rdfs:label>specified by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasDerivedFrom -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom">
+        <rdfs:label>was derived from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#appliesToHardwareType -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#appliesToHardwareType">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#Requirement"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#HardwareType"/>
+        <rdfs:label>applies to hardware type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#appliesToProperty -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#appliesToProperty">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#Requirement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+        <rdfs:label>applies to property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#appliesToSoftwareType -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#appliesToSoftwareType">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#Requirement"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#SoftwareType"/>
+        <rdfs:label>applies to software type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#belongsToCPUFamily -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#belongsToCPUFamily">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#CPU"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#CPUFamily"/>
+        <rdfs:label>belongs to c p u family</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#exposesAPI -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#exposesAPI">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+                    <rdf:Description rdf:about="http://w3id.org/devops-infra/software#Software"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:label>exposes a p i</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasBitrate -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasBitrate">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#Port"/>
+        <rdfs:range rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
+        <rdfs:label>has bitrate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasByteSize -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasByteSize">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <rdfs:range rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
+        <rdfs:label>has byte size</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasCPU -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasCPU">
+        <rdfs:domain rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#CPU"/>
+        <rdfs:label>has c p u</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasCPUArchitecture -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasCPUArchitecture">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#CPU"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#CPUArchitecture"/>
+        <rdfs:label>has c p u architecture</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasConnectorType -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasConnectorType">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#Connector"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#ConnectorType"/>
+        <rdfs:label>has connector type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasDatasheet -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasDatasheet">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/daont#hasDocumentation"/>
+        <rdfs:domain rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#Datasheet"/>
+        <rdfs:label>has datasheet</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasDocumentation -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasDocumentation">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#Documentation"/>
+        <rdfs:label>has documentation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasDriver -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasDriver">
+        <rdfs:domain rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#Driver"/>
+        <rdfs:label>has driver</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasFirmware -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasFirmware">
+        <rdfs:domain rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#Firmware"/>
+        <rdfs:label>has firmware</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasFirmwareVersion -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasFirmwareVersion">
+        <rdfs:domain rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:range rdf:resource="https://w3id.org/okn/o/sd#SoftwareVersion"/>
+        <rdfs:label>has firmware version</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasHardwareModel -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasHardwareModel">
+        <rdfs:domain rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#HardwareModel"/>
+        <rdfs:label>has hardware model</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasInterface -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasInterface">
+        <rdfs:domain rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#Interface"/>
+        <rdfs:label>has interface</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasMaxClock -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasMaxClock">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#CPU"/>
+        <rdfs:range rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
+        <rdfs:label>has max clock</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasMaximumPowerConsumption -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasMaximumPowerConsumption">
+        <rdfs:domain rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:range rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
+        <rdfs:label>has maximum power consumption</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasModelCard -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasModelCard">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/mls#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#ModelCard"/>
+        <rdfs:label>has model card</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasNetworkingConfiguration -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasNetworkingConfiguration">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#NetworkingInterface"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#NetworkingConfiguration"/>
+        <rdfs:label>has networking configuration</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasOntologyLanguage -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasOntologyLanguage">
+        <rdfs:domain rdf:resource="http://purl.org/spar/fabio/Ontology"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#OntologyLanguage"/>
+        <rdfs:label>has ontology language</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasRAM -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasRAM">
+        <rdfs:domain rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#RAM"/>
+        <rdfs:label>has r a m</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasRAMSize -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasRAMSize">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#RAM"/>
+        <rdfs:range rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
+        <rdfs:label>has r a m size</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasRAMTechnology -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasRAMTechnology">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#RAM"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#RAMTechnology"/>
+        <rdfs:label>has r a m technology</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasRequirement -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasRequirement">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://w3id.org/devops-infra/software#Software"/>
+                    <rdf:Description rdf:about="http://www.w3.org/ns/mls#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:label>has requirement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasRequirementType -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasRequirementType">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#Requirement"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#RequirementType"/>
+        <rdfs:label>has requirement type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasSBOM -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasSBOM">
+        <rdfs:domain rdf:resource="https://w3id.org/okn/o/sd#SoftwareVersion"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#SoftwareBillOfMaterials"/>
+        <rdfs:label>has s b o m</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasSignaturesPerSecond -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasSignaturesPerSecond">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#CryptographicHardwareItem"/>
+        <rdfs:range rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
+        <rdfs:label>has signatures per second</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#hasSpeedUp -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#hasSpeedUp">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#CryptographicHardwareItem"/>
+        <rdfs:range rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
+        <rdfs:label>has speed up</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#implementsProtocol -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#implementsProtocol">
+        <rdfs:domain rdf:resource="http://w3id.org/devops-infra/software#Software"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#Protocol"/>
+        <rdfs:label>implements protocol</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#isAssociatedWithAIActRiskLevel -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#isAssociatedWithAIActRiskLevel">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/mls#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#AIActRiskLevel"/>
+        <rdfs:label>is associated with a i act risk level</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#isAssociatedWithGDPRRiskLevel -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#isAssociatedWithGDPRRiskLevel">
+        <rdfs:domain rdf:resource="http://w3id.org/devops-infra/software#Software"/>
+        <rdfs:range rdf:resource="https://w3id.org/dpv#RiskLevel"/>
+        <rdfs:label>is associated with g d p r risk level</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#isMemberOfModelFamily -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#isMemberOfModelFamily">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/mls#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#ModelFamily"/>
+        <rdfs:label>is member of model family</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#isTechnologyVersionOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#isTechnologyVersionOf">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#TechnologyVersion"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#Technology"/>
+        <rdfs:label>is technology version of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#isTypicallyConfiguredWith -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#isTypicallyConfiguredWith">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/mls#Model"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/mls#HyperParameter"/>
+        <rdfs:label>is typically configured with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#isWrittenInProgrammingLanguage -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#isWrittenInProgrammingLanguage">
+        <rdfs:domain rdf:resource="http://w3id.org/devops-infra/software#Software"/>
+        <rdfs:range rdf:resource="https://w3id.org/amv#ProgrammingLanguage"/>
+        <rdfs:label>is written in programming language</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#providesFeature -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#providesFeature">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+                    <rdf:Description rdf:about="http://w3id.org/devops-infra/software#Software"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/daont#HardwareFeature"/>
+                    <rdf:Description rdf:about="https://w3id.org/daont#SoftwareFeature"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label>provides feature</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#referencesConnector -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#referencesConnector">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#NetworkingInterface"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#Connector"/>
+        <rdfs:label>references connector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#referencesPort -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#referencesPort">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#NetworkingInterface"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#Port"/>
+        <rdfs:label>references port</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#requiredHardware -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#requiredHardware">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#HardwareRequirement"/>
+        <rdfs:range rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:label>required hardware</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#requiredSoftware -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#requiredSoftware">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#SoftwareRequirement"/>
+        <rdfs:range rdf:resource="http://w3id.org/devops-infra/software#Software"/>
+        <rdfs:label>required software</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#requiresMaximumValue -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#requiresMaximumValue">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#Requirement"/>
+        <rdfs:range rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
+        <rdfs:label>requires maximum value</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#requiresMinimumFirmwareVersion -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#requiresMinimumFirmwareVersion">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#HardwareFeature"/>
+        <rdfs:range rdf:resource="https://w3id.org/okn/o/sd#SoftwareVersion"/>
+        <rdfs:label>requires minimum firmware version</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#requiresMinimumValue -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#requiresMinimumValue">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#Requirement"/>
+        <rdfs:range rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
+        <rdfs:label>requires minimum value</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#requiresValue -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#requiresValue">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#Requirement"/>
+        <rdfs:range rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
+        <rdfs:label>requires value</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#runsOnInterface -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#runsOnInterface">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#Protocol"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#Interface"/>
+        <rdfs:label>runs on interface</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#supportsAlgorithm -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#supportsAlgorithm">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+                    <rdf:Description rdf:about="http://w3id.org/devops-infra/software#Software"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:label>supports algorithm</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#supportsInterfaceTechnology -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#supportsInterfaceTechnology">
+        <rdfs:domain rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#InterfaceTechnology"/>
+        <rdfs:label>supports interface technology</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#usesDriver -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#usesDriver">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#NetworkingConfiguration"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#Driver"/>
+        <rdfs:label>uses driver</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#usesDriverVersion -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#usesDriverVersion">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#NetworkingConfiguration"/>
+        <rdfs:range rdf:resource="https://w3id.org/okn/o/sd#SoftwareVersion"/>
+        <rdfs:label>uses driver version</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#usesFirmware -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#usesFirmware">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#NetworkingConfiguration"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#Firmware"/>
+        <rdfs:label>uses firmware</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#usesFirmwareVersion -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#usesFirmwareVersion">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#NetworkingConfiguration"/>
+        <rdfs:range rdf:resource="https://w3id.org/okn/o/sd#SoftwareVersion"/>
+        <rdfs:label>uses firmware version</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#usesInterfaceTechnology -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#usesInterfaceTechnology">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#Interface"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#InterfaceTechnology"/>
+        <rdfs:label>uses interface technology</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/daont#usesInterfaceTechnologyVersion -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/daont#usesInterfaceTechnologyVersion">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#Interface"/>
+        <rdfs:range rdf:resource="https://w3id.org/daont#InterfaceTechnologyVersion"/>
+        <rdfs:label>uses interface technology version</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/okn/o/sd#hasSoftwareVersion -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/okn/o/sd#hasSoftwareVersion">
+        <rdfs:label>has software version</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://data.europa.eu/it6/size -->
+
+
+    <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/size">
+        <rdfs:label>size</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/identifier -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/identifier">
+        <rdfs:label>identifier</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#accessURL -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/dcat#accessURL">
+        <rdfs:label>access u r l</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/mls#hasValue -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/mls#hasValue">
+        <rdfs:label>has value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://schema.org/url -->
+
+
+    <owl:DatatypeProperty rdf:about="https://schema.org/url">
+        <rdfs:label>url</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/daont#availableAtSPARQLEndpoint -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/daont#availableAtSPARQLEndpoint">
+        <rdfs:domain rdf:resource="http://purl.org/spar/fabio/Ontology"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:label>available at s p a r q l endpoint</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/daont#compliesWithAIAct -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/daont#compliesWithAIAct">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/mls#Model"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>complies with a i act</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/daont#compliesWithGDPR -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/daont#compliesWithGDPR">
+        <rdfs:domain rdf:resource="http://w3id.org/devops-infra/software#Software"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>complies with g d p r</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/daont#involvesPersonalData -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/daont#involvesPersonalData">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>involves personal data</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/daont#isIntendedForEdgeExecution -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/daont#isIntendedForEdgeExecution">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/mls#Model"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>is intended for edge execution</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/daont#isTransportable -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/daont#isTransportable">
+        <rdfs:domain rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>is transportable</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/daont#numberOfCores -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/daont#numberOfCores">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#CPU"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>number of cores</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/daont#numberOfLanes -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/daont#numberOfLanes">
+        <rdfs:domain rdf:resource="https://w3id.org/daont#HostInterface"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>number of lanes</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/okn/o/sd#hasVersionId -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/okn/o/sd#hasVersionId">
+        <rdfs:label>has version id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/okn/o/sd#softwareRequirements -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/okn/o/sd#softwareRequirements">
+        <rdfs:label>software requirements</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://data.europa.eu/it6/Modality -->
+
+
+    <owl:Class rdf:about="http://data.europa.eu/it6/Modality">
+        <rdfs:label>Modality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/FileFormat -->
+
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/FileFormat">
+        <rdfs:label>File Format</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/Frequency -->
+
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/Frequency">
+        <rdfs:label>Frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/LicenseDocument -->
+
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/LicenseDocument">
+        <rdfs:label>License Document</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/LinguisticSystem -->
+
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/LinguisticSystem">
+        <rdfs:label>Linguistic System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/Location -->
+
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/Location">
+        <rdfs:label>Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/MediaTypeOrExtent -->
+
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/MediaTypeOrExtent">
+        <rdfs:label>Media Type Or Extent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/RightsStatement -->
+
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/RightsStatement">
+        <rdfs:label>Rights Statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/Standard -->
+
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/Standard">
+        <rdfs:label>Standard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/spar/fabio/Algorithm -->
+
+
+    <owl:Class rdf:about="http://purl.org/spar/fabio/Algorithm">
+        <rdfs:label>Algorithm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/spar/fabio/ApplicationProgrammingInterface -->
+
+
+    <owl:Class rdf:about="http://purl.org/spar/fabio/ApplicationProgrammingInterface">
+        <rdfs:label>Application Programming Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/spar/fabio/Ontology -->
+
+
+    <owl:Class rdf:about="http://purl.org/spar/fabio/Ontology">
+        <rdfs:label>Ontology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/spar/fabio/OntologyDocument -->
+
+
+    <owl:Class rdf:about="http://purl.org/spar/fabio/OntologyDocument">
+        <rdfs:label>Ontology Document</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/QuantityValue -->
+
+
+    <owl:Class rdf:about="http://qudt.org/schema/qudt/QuantityValue">
+        <rdfs:label>Quantity Value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Unit -->
+
+
+    <owl:Class rdf:about="http://qudt.org/schema/qudt/Unit">
+        <rdfs:label>Unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/devops-infra/core#Resource -->
+
+
+    <owl:Class rdf:about="http://w3id.org/devops-infra/core#Resource">
+        <rdfs:label>Resource</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/devops-infra/hardware#HardwareItem -->
+
+
+    <owl:Class rdf:about="http://w3id.org/devops-infra/hardware#HardwareItem">
+        <rdfs:label>Hardware Item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/devops-infra/software#File -->
+
+
+    <owl:Class rdf:about="http://w3id.org/devops-infra/software#File">
+        <rdfs:label>File</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/devops-infra/software#Software -->
+
+
+    <owl:Class rdf:about="http://w3id.org/devops-infra/software#Software">
+        <rdfs:label>Software</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label>Thing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+        <rdfs:label>Concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Dataset -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Dataset">
+        <rdfs:label>Dataset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Distribution -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Distribution">
+        <rdfs:label>Distribution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/locn#Address -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/locn#Address">
+        <rdfs:label>Address</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/mls#Data -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/mls#Data">
+        <rdfs:label>Data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/mls#EvaluationMeasure -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/mls#EvaluationMeasure">
+        <rdfs:label>Evaluation Measure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/mls#HyperParameter -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/mls#HyperParameter">
+        <rdfs:label>Hyper Parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/mls#Model -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/mls#Model">
+        <rdfs:label>Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/mls#ModelEvaluation -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/mls#ModelEvaluation">
+        <rdfs:label>Model Evaluation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/mls#Run -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/mls#Run">
+        <rdfs:label>Run</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Agent -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Agent">
+        <rdfs:label>Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/Property -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/ssn/Property">
+        <rdfs:label>Property</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/amv#ProgrammingLanguage -->
+
+
+    <owl:Class rdf:about="https://w3id.org/amv#ProgrammingLanguage">
+        <rdfs:label>Programming Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#AIActRiskLevel -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#AIActRiskLevel">
+        <rdfs:label>A I Act Risk Level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#CPU -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#CPU">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:label>C P U</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#CPUArchitecture -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#CPUArchitecture">
+        <rdfs:label>C P U Architecture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#CPUFamily -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#CPUFamily">
+        <rdfs:label>C P U Family</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#ClassicalAlgorithm -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#ClassicalAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Algorithm"/>
+        <rdfs:label>Classical Algorithm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#Connector -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#Connector">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:label>Connector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#ConnectorType -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#ConnectorType">
+        <rdfs:label>Connector Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#CryptographicAlgorithm -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#CryptographicAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Algorithm"/>
+        <rdfs:label>Cryptographic Algorithm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#CryptographicHardwareItem -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#CryptographicHardwareItem">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:label>Cryptographic Hardware Item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#DPU -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#DPU">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:label>D P U</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#Datasheet -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#Datasheet">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/daont#Documentation"/>
+        <rdfs:label>Datasheet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#DigitalAsset -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#DigitalAsset">
+        <rdfs:label>Digital Asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#Documentation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#Documentation">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/devops-infra/core#Resource"/>
+        <rdfs:label>Documentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#Driver -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#Driver">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/devops-infra/software#Software"/>
+        <rdfs:label>Driver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#EdgeNode -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#EdgeNode">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:label>Edge Node</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#Firmware -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#Firmware">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/devops-infra/software#Software"/>
+        <rdfs:label>Firmware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#HardwareFeature -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#HardwareFeature">
+        <rdfs:label>Hardware Feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#HardwareModel -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#HardwareModel">
+        <rdfs:label>Hardware Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#HardwareRequirement -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#HardwareRequirement">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/daont#Requirement"/>
+        <rdfs:label>Hardware Requirement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#HardwareType -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#HardwareType">
+        <rdfs:label>Hardware Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#HostInterface -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#HostInterface">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/daont#Interface"/>
+        <rdfs:label>Host Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#Interface -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#Interface">
+        <rdfs:label>Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#InterfaceTechnology -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#InterfaceTechnology">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/daont#Technology"/>
+        <rdfs:label>Interface Technology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#InterfaceTechnologyVersion -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#InterfaceTechnologyVersion">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/daont#TechnologyVersion"/>
+        <rdfs:label>Interface Technology Version</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#ModelCard -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#ModelCard">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/daont#Documentation"/>
+        <rdfs:label>Model Card</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#ModelFamily -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#ModelFamily">
+        <rdfs:label>Model Family</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#ModelWeights -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#ModelWeights">
+        <rdfs:label>Model Weights</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#NetworkingConfiguration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#NetworkingConfiguration">
+        <rdfs:label>Networking Configuration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#NetworkingInterface -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#NetworkingInterface">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/daont#Interface"/>
+        <rdfs:label>Networking Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#OntologyLanguage -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#OntologyLanguage">
+        <rdfs:label>Ontology Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#OperatingSystem -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#OperatingSystem">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/devops-infra/software#Software"/>
+        <rdfs:label>Operating System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#PQCAccelerator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#PQCAccelerator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/daont#CryptographicHardwareItem"/>
+        <rdfs:label>P Q C Accelerator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#PhysicalInterface -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#PhysicalInterface">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+                    <rdf:Description rdf:about="https://w3id.org/daont#Interface"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label>Physical Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#Port -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#Port">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/daont#PhysicalInterface"/>
+        <rdfs:label>Port</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#PostQuantumCryptographicAlgorithm -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#PostQuantumCryptographicAlgorithm">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/daont#CryptographicAlgorithm"/>
+        <rdfs:label>Post Quantum Cryptographic Algorithm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#Protocol -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#Protocol">
+        <rdfs:label>Protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#QuantumResistantSecureElement -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#QuantumResistantSecureElement">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/daont#CryptographicHardwareItem"/>
+        <rdfs:label>Quantum Resistant Secure Element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#RAM -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#RAM">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/devops-infra/hardware#HardwareItem"/>
+        <rdfs:label>R A M</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#RAMTechnology -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#RAMTechnology">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/daont#Technology"/>
+        <rdfs:label>R A M Technology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#Requirement -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#Requirement">
+        <rdfs:label>Requirement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#RequirementType -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#RequirementType">
+        <rdfs:label>Requirement Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#SignatureAlgorithm -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#SignatureAlgorithm">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/daont#CryptographicAlgorithm"/>
+        <rdfs:label>Signature Algorithm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#SoftwareBillOfMaterials -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#SoftwareBillOfMaterials">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://w3id.org/devops-infra/software#File"/>
+                    <rdf:Description rdf:about="https://w3id.org/daont#Documentation"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label>Software Bill Of Materials</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#SoftwareFeature -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#SoftwareFeature">
+        <rdfs:label>Software Feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#SoftwareRequirement -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#SoftwareRequirement">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/daont#Requirement"/>
+        <rdfs:label>Software Requirement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#SoftwareType -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#SoftwareType">
+        <rdfs:label>Software Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#Technology -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#Technology">
+        <rdfs:label>Technology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#TechnologyVersion -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#TechnologyVersion">
+        <rdfs:label>Technology Version</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/daont#VirtualInterface -->
+
+
+    <owl:Class rdf:about="https://w3id.org/daont#VirtualInterface">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://w3id.org/devops-infra/software#Software"/>
+                    <rdf:Description rdf:about="https://w3id.org/daont#Interface"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label>Virtual Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dpv#RiskLevel -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dpv#RiskLevel">
+        <rdfs:label>Risk Level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/okn/o/sd#SoftwareVersion -->
+
+
+    <owl:Class rdf:about="https://w3id.org/okn/o/sd#SoftwareVersion">
+        <rdfs:label>Software Version</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://creativecommons.org/licenses/by/4.0/ -->
+
+
+    <owl:NamedIndividual rdf:about="https://creativecommons.org/licenses/by/4.0/"/>
+    
+
+
+    <!-- https://w3id.org/daont -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/daont">
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/daont#Ethernet -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/daont#Ethernet">
+        <rdf:type rdf:resource="https://w3id.org/daont#InterfaceTechnology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/daont#HighRisk -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/daont#HighRisk">
+        <rdf:type rdf:resource="https://w3id.org/daont#AIActRiskLevel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/daont#LimitedRisk -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/daont#LimitedRisk">
+        <rdf:type rdf:resource="https://w3id.org/daont#AIActRiskLevel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/daont#MinimalRisk -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/daont#MinimalRisk">
+        <rdf:type rdf:resource="https://w3id.org/daont#AIActRiskLevel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/daont#OWL -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/daont#OWL">
+        <rdf:type rdf:resource="https://w3id.org/daont#OntologyLanguage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/daont#PCIexpress -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/daont#PCIexpress">
+        <rdf:type rdf:resource="https://w3id.org/daont#InterfaceTechnology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/daont#RDF -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/daont#RDF">
+        <rdf:type rdf:resource="https://w3id.org/daont#OntologyLanguage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/daont#RDFS -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/daont#RDFS">
+        <rdf:type rdf:resource="https://w3id.org/daont#OntologyLanguage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/daont#Recommended -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/daont#Recommended">
+        <rdf:type rdf:resource="https://w3id.org/daont#RequirementType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/daont#Required -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/daont#Required">
+        <rdf:type rdf:resource="https://w3id.org/daont#RequirementType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/daont#SPS -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/daont#SPS">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/daont#UnacceptableRisk -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/daont#UnacceptableRisk">
+        <rdf:type rdf:resource="https://w3id.org/daont#AIActRiskLevel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
+        <rdfs:label>creator</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/description">
+        <rdfs:label>description</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/license">
+        <rdfs:label>license</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
+        <rdfs:label>publisher</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/title">
+        <rdfs:label>title</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
